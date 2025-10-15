@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    grid-template-rows: auto, 1fr;
+    gap: 10px;
+    background-color: lightgray;
+    padding: 10px;
+}
+main{
+    display: flex;
+    background-color: white;
+}
+aside, main{
+    border: 5px solid black;
+}
