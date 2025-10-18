@@ -9,7 +9,6 @@
     border: 5px dotted black;
 }
 .imagen img {
-  display: block; /* Elimina espacio extra debajo de la imagen */
   width: 100%;
   height: 100%;
   object-fit: cover;

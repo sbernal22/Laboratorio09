@@ -1,14 +1,36 @@
 body{
+    margin: 0;
+    min-height: 100vh;
     display: grid;
-    grid-template-rows: auto, 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr 4fr;
     background-color: lightgray;
-    padding: 10px;
 }
 main{
     display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    gap: 10px;
+    padding: 15px;
+}
+.cajaPequeña{
+    flex: 1;
+    color: black;
     background-color: white;
 }
-aside, main{
-    border: 5px solid black;
+.cajaLarga{
+    flex: 2;
+    color: black;
+    background-color: white;
+}
+.cajaAlta{
+    flex: 1 1 100%;
+    color: black;
+    background-color: white;
+}
+aside{
+    color: white;
+    background-color: darkblue;
+}
+aside, main, article{
+    border: 3px solid black;
 }

@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    min-height: 100vh;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    color: white;
+}
+button {
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    margin: 20px;
+}
+main {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
